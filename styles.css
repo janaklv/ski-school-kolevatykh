@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+
+    font-family: Oswald-normal;
+    src: url(fonts/Oswald-VariableFont_wght.ttf);
+}
+
+
+header {
+    background-color: #66D1FF;
+}
+
+
+body {
+    font-family: Montserrat;
+}
+
+.promo h1 {
+    font-family: Oswald-normal; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.footer {
+    background-color: #060D10;
+    color: #fff;
+}
