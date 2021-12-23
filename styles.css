@@ -1,30 +1,90 @@
+
+/* Montserrat-regular */
 @font-face {
     font-family: Montserrat;
+    font-style: normal;
     src: url(fonts/Montserrat-Regular.ttf);
+}
 
-    font-family: Oswald-normal;
+/* Oswald-regular */
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
     src: url(fonts/Oswald-VariableFont_wght.ttf);
 }
 
 
-header {
+/* common styles */
+
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;    
+ }
+
+ body {
+     margin: 0;
+ }
+
+ .container {
+    width: 1278px;
+    margin: auto;
+    
+ }
+
+ /* buttons */
+
+ .btn-top {
+     font-family: Montserrat;
+     font-style: normal;
+     font-size: 24px;
+     width: 276px;
+     height: 45px;
+     background-color: #fff;
+     border: none;
+     border-radius: 5px;
+     
+ }
+
+/* header */
+
+.header {
+    padding: 30px 0;
     background-color: #66D1FF;
+    height: 112px;
 }
 
 
-body {
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 295px;
+    height: 50px;
+}
+
+.phone-nr {
+    color: #000;
     font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    text-decoration: none;
+    
 }
 
-.promo h1 {
-    font-family: Oswald-normal; 
+/* promo */
+
+.promo-title {
+    font-family: Oswald; 
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
     line-height: 89px;
     display: flex;
-    align-items: center;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -34,11 +94,13 @@ body {
     font-size: 32px;
     line-height: 39px;
     display: flex;
-    align-items: center;
-    text-align: center;
-}
+  }
+
+/* learn */
+/* lead */
 
 
+/* footer */
 
 .footer {
     background-color: #060D10;
