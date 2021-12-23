@@ -18,7 +18,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: Montserrat;    
+    font-family: Montserrat;       
  }
 
  body {
@@ -28,7 +28,7 @@
  .container {
     width: 1278px;
     margin: auto;
-    
+    border: 1px solid red;
  }
 
  /* buttons */
@@ -41,7 +41,7 @@
      height: 45px;
      background-color: #fff;
      border: none;
-     border-radius: 5px;
+     border-radius: 4px;
      
  }
 
@@ -78,22 +78,36 @@
 
 /* promo */
 
+.promo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .promo-title {
-    font-family: Oswald; 
+    padding: 240px 0 30px 0;
+    text-align: center;
+    font-family: Oswald;
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
     line-height: 89px;
-    display: flex;
     text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px #060D10;
 }
 
 .promo p {
+    padding: 30px 100px 260px 100px;
+    font-family: Montserrat;
     font-style: normal;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 32px;
     line-height: 39px;
     display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
   }
 
 /* learn */
