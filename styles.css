@@ -28,7 +28,7 @@
  .container {
     width: 1278px;
     margin: auto;
-    border: 1px solid red;
+   
  }
 
  .container.border {
@@ -185,7 +185,7 @@
 
 .lead {
     padding: 170px 0 180px 0;
-    background-color: rgba(102, 209, 255, .1);
+    background: linear-gradient(24deg, rgba(102, 209, 255, .0) 50%, rgba(102, 209, 255, .1) 50%);
 }
 
 .lead-title {
@@ -213,6 +213,40 @@ color: #060D10;
 /* footer */
 
 .footer {
+    padding: 35px 0;
     background-color: #060D10;
     color: #fff;
+}
+
+.footer-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left  {
+    display: flex;
+    align-items: center;
+}
+
+.action {
+    padding-right: 50px;
+    font-size: 20px;
+    line-height: 167%;
+}
+
+.icons {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.copyright {
+    font-size: 18px;
+    line-height: 22px;
 }
