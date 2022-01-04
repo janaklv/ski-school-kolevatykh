@@ -31,9 +31,15 @@
     border: 1px solid red;
  }
 
+ .container.border {
+     border-bottom: 1px solid #000;
+ }
+
+
+
  /* buttons */
 
- .btn-top {
+ .btn {
      font-family: Montserrat;
      font-style: normal;
      font-size: 24px;
@@ -42,8 +48,18 @@
      background-color: #fff;
      border: none;
      border-radius: 4px;
-     
- }
+     }
+
+.btn.bottom {
+    background-color: none;
+    border: 1px solid #060D10;
+    
+    width: 505px;
+    height: 86px;
+    font-size: 36px;
+    line-height: 44px;
+}     
+
 
 /* header */
 
@@ -112,10 +128,12 @@
 /* options */
 
 .options {
-    padding: 170px 0;
+    padding: 170px 0 0 0;
     background-color: rgba(102, 209, 255, .1);
-    border-bottom: 1px solid #000;
 }
+
+
+
 
 .options-title {
     padding-bottom: 100px;
@@ -131,6 +149,7 @@
 }
 
 .options-list {
+    margin-bottom: 170px;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -164,6 +183,32 @@
 
 /* lead */
 
+.lead {
+    padding: 170px 0 180px 0;
+    background-color: rgba(102, 209, 255, .1);
+}
+
+.lead-title {
+margin-bottom: 60px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 167%;
+text-align: center;
+text-transform: uppercase;
+color: #060D10;
+}
+
+.btn-bottom {
+    text-align: center;
+}
+
+.lead-images {
+    justify-content: space-between;
+    padding-top: 130px;
+    display: flex;
+}
 
 /* footer */
 
